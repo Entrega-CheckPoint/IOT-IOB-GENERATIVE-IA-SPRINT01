@@ -2,9 +2,14 @@
 
 ## **Objetivo**
 
-Utilizar IOT para rastrear uma moto no patio da MOTTU, triangulando a localização com o uso de WIFI.
+- Utilizar IOT para rastrear uma moto no patio da MOTTU, triangulando a localização com o uso de WIFI.
 
-Desenvolver um protótipo funcional utilizando **ESP32**, que se conecta a um **broker MQTT** hospedado em uma **VM Linux (Azure)** com **Mosquitto** e **Node-RED**.
+<img src="patio_com_antenas.png" width="400"/>
+
+- Desenvolver um protótipo funcional utilizando **ESP32**, que se conecta a um **broker MQTT** hospedado em uma **VM Linux (Azure)** com **Mosquitto** e **Node-RED**.
+
+<img src="fluxo_esp32_azure.png" width="400"/>
+
 
 ---
 
@@ -52,7 +57,7 @@ git clone https://github.com/Entrega-CheckPoint/IOT-IOB-GENERATIVE-IA-SPRINT01
 ```bash
 cd challenge-mottu-iot
 
-sudo yum update -y 
+sudo yum update -y
 
 sudo yum install -y docker docker-compose-plugin
 
@@ -89,4 +94,4 @@ sudo docker compose up -d
 
 ## Link para o vídeo
 
-> \[Link para o vídeo no YouTube - não listado]
+-> [Clique aqui](https://www.youtube.com/watch?v=kRnK1DdSqkA)
